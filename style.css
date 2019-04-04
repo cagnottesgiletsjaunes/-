@@ -1,0 +1,86 @@
+::-moz-selection {
+    background: #fff;
+    color: #000;
+}
+::selection {
+    background: #fff;
+    color: #000;
+}
+
+body {
+	background-color: #0b0612;
+}
+
+.navbar {
+	background-color: #f3fb00 !important;
+}
+
+h1, p, li, .navbar-brand, .card-title, .card-text {
+	color: #fff;
+	font-family: "Cousine", monospace;
+}
+
+h1 {
+	margin-top: 1em;
+}
+
+.text {
+	margin-bottom: 2em;
+}
+
+.card {
+	transition: all 0.3s;
+	border: none;
+	margin-top: 1em;
+	background: #515464;
+	background: -webkit-linear-gradient(to right, #292632, #0b0612);
+	background: linear-gradient(to right, #292632, #0b0612);
+}
+
+.card:hover {
+	box-shadow: 0 5px 30px 0 #2f303b;
+}
+
+.card-link {
+	font-family: arial;
+}
+
+.btn {
+	transition: all 0.2s;
+	position: relative;
+	left: 60px;
+	border: none;
+	border-radius: 50px;
+	background-color: #f3fb00;
+	color: #000;
+}
+
+.btn:hover {
+	background-color: #f3fbb0;
+	color: #000;
+}
+
+.sharebutton {
+	margin-top: -30px;
+	position: relative;
+	top: 38px;
+}
+
+.twitter-share-button {
+	border-radius: 50px;
+}
+
+
+footer {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+.top {
+	color: #fff;
+}
+
+.top:hover {
+	color: #f3fb00;
+	text-decoration: none;
+}
