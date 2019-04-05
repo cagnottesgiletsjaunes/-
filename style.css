@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "Geomanist";
+	src: url('geomanist-regular-webfont.woff');
+}
+
 ::-moz-selection {
     background: #fff;
     color: #000;
@@ -22,6 +27,12 @@ h1, p, li, .navbar-brand, .card-title, .card-text {
 
 h1 {
 	margin-top: 1em;
+}
+
+.title {
+	font-family: Geomanist, sans-serif;
+	font-weight: bolder;
+	font-size: 45px;
 }
 
 .text {
