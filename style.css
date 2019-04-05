@@ -28,6 +28,10 @@ h1 {
 	margin-bottom: 2em;
 }
 
+b {
+	color: #f3fb00;
+}
+
 .card {
 	transition: all 0.3s;
 	border: none;
